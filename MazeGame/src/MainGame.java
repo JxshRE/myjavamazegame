@@ -364,23 +364,7 @@ public class MainGame {
 	}
 	
 	public static void splash() {
-		/* JFrame frame = new JFrame("My First GUI");
-	       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	       frame.setSize(400,250);
-	       
-	       frame.setLayout(null);
-	       frame.setResizable(false);
-	       
-	       JLabel lbl = new JLabel("Maze Game");
-	       lbl.setBounds(0, 0, 400, 200);
-	       lbl.setFont(new Font("Calibri",Font.BOLD,50));
-	       lbl.setVerticalTextPosition(SwingConstants.CENTER);
-	       lbl.setHorizontalTextPosition(SwingConstants.CENTER);
-	       lbl.setHorizontalAlignment(SwingConstants.CENTER);
-	       lbl.setVerticalAlignment(SwingConstants.CENTER);
-	       frame.getContentPane().add(lbl);
-	       frame.setVisible(true);
-		 */
+	
 		 JWindow j=new JWindow();
 
 	     Dimension d=Toolkit.getDefaultToolkit().getScreenSize();
